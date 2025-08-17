@@ -38,23 +38,18 @@ interface ModalData {
 
 // Mock data
 const mockUsers: User[] = [
-  { id: '1', name: 'John Developer', email: 'developer@bhel.com', role: 'developer' },
-  { id: '2', name: 'Jane Reviewer', email: 'reviewer@bhel.com', role: 'reviewer' },
-  { id: '3', name: 'Dr. Sarah Johnson', email: 'hod@bhel.com', role: 'hod' },
-  { id: '4', name: 'Mike DTG', email: 'dtg@bhel.com', role: 'dtg' },
-  { id: '5', name: 'Alex CDT', email: 'cdt@bhel.com', role: 'cdt' },
-  { id: '6', name: 'Sam Hosting', email: 'hosting@bhel.com', role: 'hosting' },
-  { id: '7', name: 'Admin User', email: 'admin@bhel.com', role: 'admin' },
+  { id: '1', name: 'Jack Developer', email: 'developer@bhel.com', role: 'developer' },
+  { id: '2', name: 'Ansh Reviewer', email: 'reviewer@bhel.com', role: 'reviewer' },
 ];
 
 const mockApplicationStatus: ApplicationStatus[] = [
   {
     id: '1',
-    appName: 'Employee Portal v2.1',
+    appName: 'Employee Portal',
     currentStage: 'hod',
-    currentApprover: 'Dr. Sarah Johnson',
+    currentApprover: 'Dr. Sarah',
     status: 'pending',
-    lastUpdated: '2024-01-15 10:30 AM'
+    lastUpdated: '2025-01-15 10:30 AM'
   },
   {
     id: '2',
@@ -62,32 +57,16 @@ const mockApplicationStatus: ApplicationStatus[] = [
     currentStage: 'cdt',
     currentApprover: 'Alex CDT',
     status: 'pending',
-    lastUpdated: '2024-01-14 02:15 PM'
-  },
-  {
-    id: '3',
-    appName: 'Financial Reporting Tool',
-    currentStage: 'hosting',
-    currentApprover: 'Sam Hosting',
-    status: 'approved',
-    lastUpdated: '2024-01-13 09:45 AM'
-  },
-  {
-    id: '4',
-    appName: 'Inventory Management System',
-    currentStage: 'hosting',
-    currentApprover: 'Sam Hosting',
-    status: 'hosted',
-    lastUpdated: '2024-01-12 11:20 AM'
+    lastUpdated: '2025-01-14 02:15 PM'
   }
 ];
 
 const mockAuditTrail: AuditTrail[] = [
   {
     id: '1',
-    appName: 'Employee Portal v2.1',
+    appName: 'Employee Portal',
     actionTaken: 'approved',
-    by: 'Reviewer - Jane Reviewer',
+    by: 'Reviewer - Ansh Reviewer',
     dateTime: '2024-01-15 10:30 AM',
     remarks: 'All checklist items completed'
   },
@@ -98,20 +77,6 @@ const mockAuditTrail: AuditTrail[] = [
     by: 'HOD - Dr. Sarah Johnson',
     dateTime: '2024-01-14 02:15 PM',
     remarks: 'Additional security review required'
-  },
-  {
-    id: '3',
-    appName: 'Financial Reporting Tool',
-    actionTaken: 'approved',
-    by: 'CDT - Alex CDT',
-    dateTime: '2024-01-13 09:45 AM'
-  },
-  {
-    id: '4',
-    appName: 'Inventory Management System',
-    actionTaken: 'hosted',
-    by: 'Hosting - Sam Hosting',
-    dateTime: '2024-01-12 11:20 AM'
   }
 ];
 

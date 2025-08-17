@@ -23,37 +23,16 @@ interface ModalData {
 const mockPendingApprovals: PendingApproval[] = [
   {
     id: '1',
-    appName: 'Employee Portal v2.1',
-    reviewerName: 'John Smith',
-    submissionDate: '2024-01-15',
+    appName: 'Employee Portal',
+    reviewerName: 'Ansh',
+    submissionDate: '2025-08-13',
     checklistStatus: 'complete'
   },
   {
     id: '2',
-    appName: 'Inventory Management System',
-    reviewerName: 'Sarah Johnson',
-    submissionDate: '2024-01-14',
-    checklistStatus: 'partial'
-  },
-  {
-    id: '3',
-    appName: 'Customer Support Dashboard',
-    reviewerName: 'Mike Wilson',
-    submissionDate: '2024-01-13',
-    checklistStatus: 'incomplete'
-  },
-  {
-    id: '4',
-    appName: 'Financial Reporting Tool',
-    reviewerName: 'Emily Davis',
-    submissionDate: '2024-01-12',
-    checklistStatus: 'complete'
-  },
-  {
-    id: '5',
-    appName: 'HR Management System',
-    reviewerName: 'David Brown',
-    submissionDate: '2024-01-11',
+    appName: 'Library Management System',
+    reviewerName: 'Jack',
+    submissionDate: '2025-08-13',
     checklistStatus: 'partial'
   }
 ];
